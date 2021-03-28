@@ -8,6 +8,7 @@ function AboutMe() {
         <Navbar />
         <div>
             <h1 className="h1">Hi, my name is Gethin!</h1>
+            <h2></h2>
         </div>
         </>
     );

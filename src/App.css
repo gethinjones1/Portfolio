@@ -62,7 +62,7 @@ nav ul li {
   background: url(altumcode-XMFZqrGyV-Q-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 93.5vh;
+  height: 94.2vh;
 }
 
 .main-info {
@@ -119,7 +119,8 @@ nav ul li {
 
 /**About Me**/
 
-.h1 {
+h1 {
+  font-family: "Roboto Condensed" sans-serif;
   text-align: center;
   top: 0;
   left: 0;
