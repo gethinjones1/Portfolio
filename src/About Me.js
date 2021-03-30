@@ -1,4 +1,4 @@
-import './App.css';
+/*import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import { Grid, Cell } from 'react-mdl';
@@ -34,4 +34,4 @@ function AboutMe() {
 
 }
 
-export default AboutMe;
+export default AboutMe;*/

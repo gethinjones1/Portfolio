@@ -24,11 +24,13 @@ nav {
 
 /**NAV LINKS***/
 .navbar-custom {
-  background-color: var(--primary-white);
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav a.nav-link {
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 0.038rem;
   cursor: pointer;
 }
@@ -44,16 +46,16 @@ nav ul li {
 .navbar-nav > li > a {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
-  color: var(--primary-black) !important;
-  border-top: 0.1875rem solid var(--primary-white);
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-black);
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-black);
+  border-top: 0.1875rem solid var(--primary-white);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-black);
+  border-top: 0.1875rem solid var(--primary-white);
 }
 
 .header-wrapper {

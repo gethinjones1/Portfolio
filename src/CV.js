@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import { Grid, Cell } from 'react-mdl';
 import Picture from './Me.jpg';
-import Education from './education'
+import Education from './education';
+import Experience from './experience';
 
 function CV() {
     return(
@@ -19,7 +20,7 @@ function CV() {
                             style={{height: '200px'}}/>  
                     </div>
                     <h2 style={{paddingTop: '2em' }}>Gethin Jones</h2>
-                    <h4 style={{color: 'grey'}}>Programmer</h4>
+                    <h4 style={{color: 'grey'}}>Aspiring Software Engineer</h4>
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
                         dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -54,9 +55,14 @@ function CV() {
                         schoolDescription={"GCSEs & A Levels"}
                     />
                     <hr style={{borderTop: '3px solid #e22947'}}/>
-                <h2>Exprience</h2>
 
-
+                <h2>Experience</h2>
+                <Experience
+                    startYear={2017}
+                    endYear={'Present'}
+                    jobName={"Lead Photometric Engineer"}
+                    jobDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets contain"}
+                />
                 </Cell>
             </Grid>
         </div>
