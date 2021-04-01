@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./Navbar";
+import Particles from "react-particles-js";
 
 
 class Portfolio extends Component {
@@ -65,7 +65,29 @@ toggleCategories() {
         return(
             <>
             <Navbar />
-            <div className="category-tabs">
+            <Particles 
+        className="particles-canvas"
+        params={{
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 900,
+              }
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 6,
+                color: "#000000"  
+              }
+            }
+          }
+        }}
+      />
+        <div className="portfolioPages">
+            <div className="category-tabs" style={{paddingTop: '4.5em'}}>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>React</Tab>
                     <Tab>JavaScript</Tab>
@@ -78,6 +100,7 @@ toggleCategories() {
                         </Cell>
                     </Grid>
             </div>
+        </div>
             </>
         )
     }

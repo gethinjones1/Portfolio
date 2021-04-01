@@ -1,17 +1,17 @@
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./Navbar";
 import { Grid, Cell } from 'react-mdl';
+import { Button } from 'reactstrap';
 import Picture from './Me.jpg';
 import Education from './education';
 import Experience from './experience';
-import Social from './Social';
+import myCV from './myCV.pdf'
 
 function CV() {
     return(
         <>
         <Navbar />
-        <div>
+        <div className="CVinfo" style={{paddingTop: '3.5em'}}>
             <Grid>
                 <Cell col={4}>
                     <div style={{textAlign: 'center'}}>
@@ -21,19 +21,19 @@ function CV() {
                             style={{height: '200px'}}/>  
                     </div>
                     <h2>Gethin Jones</h2>
-                    <Social />
+                    <Button variant="secondary" className="cvDownload" href={myCV} target="_blank">CV Download</Button>
                     <h4 style={{color: 'grey'}}>Aspiring Software Engineer</h4>
-                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
+                    <hr style={{borderTop: '3px solid #e22947', width: '50%'}}></hr>
                     <p>A motivated and driven undergraduate student studying Applied Software Engineering via a degree apprenticeship in parallel with full time employment in a UKAS accredited testing laboratory. Looking to secure my first role as a Software developer. I have an analytical and methodical approach to solving problems, which is a part of my day-to-day in my current role as Lead Photometric Engineer at LUX-TSI. My experience is diverse due to my development from administration to systems administration and CRM development to then Technical leadership of the accredited Photometric department. This has led me to develop strong IT skills, with the use of Excel and other MS packages within my role which could be considered advanced, strong technical leadership with enthusiasm for project management and quality assurance in line with QMS requirements. 
                     </p>
-                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
+                    <hr style={{borderTop: '3px solid #e22947', width: '50%'}}></hr>
                     <h5>Address</h5>
                     <p>46 Heol Miskin, Pontyclun, RCT, CF72 9AJ</p>
                     <h5>Phone</h5>
                     <p>07792554544</p>
                     <h5>Email</h5>
                     <p>gethinjackjones@gmail.com</p>
-                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
+                    <hr style={{borderTop: '3px solid #e22947', width: '50%'}}></hr>
                 </Cell>
                 <Cell className="CV-right-col" col={8}>
                     <h2>Education</h2>

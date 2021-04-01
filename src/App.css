@@ -1,4 +1,3 @@
-
 /**HOME**/
 :root {
   --primary-white: #ffff;
@@ -10,33 +9,18 @@
   --primary-light: #f8f9fa;
 }
 
-body {
-  font-family: "Roboto Condensed" sans-serif;
-}
-
-nav {
-  z-index: 2;
-}
-
-.logo {
-  width: 16.25rem;
-}
-
 /**NAV LINKS***/
 .navbar-custom {
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  font-family: 'Poppins', sans-serif;
 }
 
 nav a.nav-link {
   font-size: 1.1rem;
-  letter-spacing: 0.038rem;
+  letter-spacing: 0.02rem;
   cursor: pointer;
-}
-
-nav ul li {
-  text-transform: uppercase;
 }
 
 .navbar-nav {
@@ -47,23 +31,20 @@ nav ul li {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-black);
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-white);
 }
 
-.navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-white);
-}
+/**Header**/
 
 .header-wrapper {
   position: relative;
   background: url(altumcode-XMFZqrGyV-Q-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 94.6vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -77,8 +58,8 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Roboto Condensed" sans-serif;
   z-index: 1;
+  font-family: 'Poppins', sans-serif;
 }
 
 .main-info h1 {
@@ -93,7 +74,6 @@ nav ul li {
 
 .btn-main-offer {
   border: 1px solid var(--primary-white);
-  text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
 }
@@ -103,13 +83,6 @@ nav ul li {
   margin-bottom: 400px;
   color: var(--primary-black);
   background-color: var(--primary-white);
-}
-
-.btn-main-offer:hover {
-  text-decoration: none;
-  background-color: var(--primary-black);  
-  color: var(--primary-white);
-  transition: 0.2s ease-in-out;
 }
 
 .tsparticles-canvas-el {
@@ -146,9 +119,14 @@ nav ul li {
 }
 
 /**CV**/
+.CVinfo {
+  font-family: 'Poppins', sans-serif;
+}
 
 .CV-right-col {
-  background: #27221F;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   color: white;
   padding: 2em;
 }
@@ -161,7 +139,6 @@ nav ul li {
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em;
 }
 
 .contact-grid {
@@ -192,6 +169,11 @@ nav ul li {
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
+}
+
+/*PORTFOLIO*/
+.portfolioPages {
+  font-family: 'Poppins', sans-serif;
 }
 
 

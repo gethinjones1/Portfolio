@@ -1,6 +1,6 @@
 import React from "react"
 import Typed from "react-typed"
-
+import { Button } from 'reactstrap';
 
 const Header = () => {
     return (
@@ -14,7 +14,7 @@ const Header = () => {
                     backSpeed={40}
                     loop
                 />
-                <a href="/contact" className="btn-main-offer">Contact Me</a>
+            <Button href="mailto:gethinjackjones@gmail.com" variant="primary" className="btn-main-offer">Contact Me</Button>
             </div>           
         </div>
     )

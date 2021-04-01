@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { falinkedin } from '@fortawesome/free-solid-svg-icons'
@@ -15,4 +15,4 @@ function Social() {
     )
 }
 
-export default Social;
+export default Social;*/
