@@ -22,6 +22,7 @@ toggleCategories() {
                 </CardText>
                 <CardActions border>
                     <Button colored>GitHub</Button>
+                    <Button colored href="" target="_blank">Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton style={{color: 'black'}} name="share"/>
@@ -37,6 +38,7 @@ toggleCategories() {
                 </CardText>
                 <CardActions border>
                     <Button colored href="https://github.com/gethinjones1/TicTacToe.git" target="_blank">GitHub</Button>
+                    <Button colored href="" target="_blank">Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton style={{color: 'black'}} name="share"/>
@@ -52,6 +54,7 @@ toggleCategories() {
                 </CardText>
                 <CardActions border>
                     <Button colored href="" target="_blank">GitHub</Button>
+                    <Button colored href="" target="_blank">Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton style={{color: 'black'}} name="share"/>
