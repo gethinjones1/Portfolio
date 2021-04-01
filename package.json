@@ -1,5 +1,4 @@
 {
-  "homepage": "https://gethinjones1.github.io/Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +10,8 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
+    "install": "^0.13.0",
+    "npm": "^7.7.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-mdl": "^2.1.0",
@@ -23,8 +24,6 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
