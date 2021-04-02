@@ -27,10 +27,6 @@ function CV() {
                     <p>A motivated and driven undergraduate student studying Applied Software Engineering via a degree apprenticeship in parallel with full time employment in a UKAS accredited testing laboratory. Looking to secure my first role as a Software developer. I have an analytical and methodical approach to solving problems, which is a part of my day-to-day in my current role as Lead Photometric Engineer at LUX-TSI. My experience is diverse due to my development from administration to systems administration and CRM development to then Technical leadership of the accredited Photometric department. This has led me to develop strong IT skills, with the use of Excel and other MS packages within my role which could be considered advanced, strong technical leadership with enthusiasm for project management and quality assurance in line with QMS requirements. 
                     </p>
                     <hr style={{borderTop: '3px solid #e22947', width: '50%'}}></hr>
-                    <h5>Address</h5>
-                    <p>46 Heol Miskin, Pontyclun, RCT, CF72 9AJ</p>
-                    <h5>Phone</h5>
-                    <p>07792554544</p>
                     <h5>Email</h5>
                     <p>gethinjackjones@gmail.com</p>
                     <hr style={{borderTop: '3px solid #e22947', width: '50%'}}></hr>
