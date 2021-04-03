@@ -52,8 +52,7 @@ toggleCategories() {
                     A full stack app developed utilising the Mongo, Express, React and Node stack. Ongoing project to develop a sample management system for a testing laboratory. 
                 </CardText>
                 <CardActions border>
-                    <Button colored href="" target="_blank">GitHub</Button>
-                    <Button colored href="" target="_blank">Demo</Button>
+                    <Button colored href="https://github.com/gethinjones1/LIMS.git" target="_blank">GitHub</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton style={{color: 'black'}} name="share"/>
