@@ -21,6 +21,7 @@ function CV() {
                             style={{height: '200px'}}/>  
                     </div>
                     <h2>Gethin Jones</h2>
+                    <div className="linkedin"><img src="./LI-In-Bug.png" width="20px"></img></div>
                     <Button variant="secondary" className="cvDownload" href={myCV} target="_blank">Open CV</Button>
                     <h4 style={{color: 'grey'}}>Aspiring Software Engineer</h4>
                     <hr style={{borderTop: '3px solid #e22947', width: '50%'}}></hr>
