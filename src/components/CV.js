@@ -6,6 +6,7 @@ import Picture from './Me.jpg';
 import Education from './education';
 import Experience from './experience';
 import myCV from './myCV.pdf'
+import { FaLinkedin } from "react-icons/fa";
 
 function CV() {
     return(
@@ -21,7 +22,8 @@ function CV() {
                             style={{height: '200px'}}/>  
                     </div>
                     <h2>Gethin Jones</h2>
-                    <div className="linkedin"><img src="./LI-In-Bug.png" width="20px"></img></div>
+                    <a href="https://www.linkedin.com/in/gethin-jones-70884a138/" target="_blank"><FaLinkedin className="linkedin-icon" style={{fontSize: '3.5em'}}></FaLinkedin></a>
+                    <br></br>
                     <Button variant="secondary" className="cvDownload" href={myCV} target="_blank">Open CV</Button>
                     <h4 style={{color: 'grey'}}>Aspiring Software Engineer</h4>
                     <hr style={{borderTop: '3px solid #e22947', width: '50%'}}></hr>
