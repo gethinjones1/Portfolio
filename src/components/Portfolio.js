@@ -53,6 +53,7 @@ toggleCategories() {
                 </CardText>
                 <CardActions border>
                     <Button colored href="https://github.com/gethinjones1/LIMS.git" target="_blank">GitHub</Button>
+                    <Button colored href="https://lux-tsi-lims.netlify.app/" target="_blank">Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton style={{color: 'black'}} name="share"/>
