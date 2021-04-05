@@ -62,7 +62,8 @@ function CV() {
                     startYear={2015}
                     endYear={'2017'}
                     jobName={"Various Jobs"}
-                    jobDescription={"Waitering at the Vale Resort and Miskin Manor Hotel. Barrista at Marks & Spencers."}
+                    jobDescription={"Waitering at the Vale Resort and Miskin Manor Hotel."}
+                    jobDescriptionTwo={"Barrista at Marks & Spencers"}
                 />
                 </Cell>
             </Grid>
