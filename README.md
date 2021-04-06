@@ -1,3 +1,22 @@
+# Project Takeaways
+
+Technologies & Notes:
+
+React           - create react app.
+React-router    - Route, Link, Browser Router
+                - https://reactrouter.com/web/guides/quick-start
+React-icons     - LinkedIn Logo and links, when using font awesome imports font size changes image size
+                - https://react-icons.github.io/react-icons/
+Bootsrap        - navbar and responsive styling implementation.
+                - https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+Deployment:
+
+Netlify         - Git repo pushes to Netlify. Require _redirects file to point at index.html in public folder.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
